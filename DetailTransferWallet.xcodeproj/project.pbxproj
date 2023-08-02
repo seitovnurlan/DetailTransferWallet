@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282B8C402A7ADFF300F983CD /* ExchangeReceipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B8C3F2A7ADFF300F983CD /* ExchangeReceipViewController.swift */; };
+		282B8C422A7AE5E000F983CD /* CustomExchangeReceipTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B8C412A7AE5E000F983CD /* CustomExchangeReceipTabCell.swift */; };
 		2843A6112A7A4B9C0009E3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843A6102A7A4B9C0009E3D3 /* AppDelegate.swift */; };
 		2843A6132A7A4B9C0009E3D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843A6122A7A4B9C0009E3D3 /* SceneDelegate.swift */; };
-		2843A6152A7A4B9C0009E3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843A6142A7A4B9C0009E3D3 /* ViewController.swift */; };
-		2843A6182A7A4B9C0009E3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2843A6162A7A4B9C0009E3D3 /* Main.storyboard */; };
 		2843A61A2A7A4B9D0009E3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843A6192A7A4B9D0009E3D3 /* Assets.xcassets */; };
 		2843A61D2A7A4B9D0009E3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2843A61B2A7A4B9D0009E3D3 /* LaunchScreen.storyboard */; };
+		2843A6252A7A4D9B0009E3D3 /* DetailTransferWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843A6242A7A4D9B0009E3D3 /* DetailTransferWalletViewController.swift */; };
+		2843A62D2A7A521D0009E3D3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2843A62C2A7A521D0009E3D3 /* SnapKit */; };
+		2843A62F2A7A567E0009E3D3 /* CustomDetailTransferTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843A62E2A7A567E0009E3D3 /* CustomDetailTransferTabCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282B8C3F2A7ADFF300F983CD /* ExchangeReceipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeReceipViewController.swift; sourceTree = "<group>"; };
+		282B8C412A7AE5E000F983CD /* CustomExchangeReceipTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExchangeReceipTabCell.swift; sourceTree = "<group>"; };
 		2843A60D2A7A4B9C0009E3D3 /* DetailTransferWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetailTransferWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2843A6102A7A4B9C0009E3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2843A6122A7A4B9C0009E3D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2843A6142A7A4B9C0009E3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2843A6172A7A4B9C0009E3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2843A6192A7A4B9D0009E3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2843A61C2A7A4B9D0009E3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2843A61E2A7A4B9D0009E3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2843A6242A7A4D9B0009E3D3 /* DetailTransferWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransferWalletViewController.swift; sourceTree = "<group>"; };
+		2843A62E2A7A567E0009E3D3 /* CustomDetailTransferTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailTransferTabCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +36,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2843A62D2A7A521D0009E3D3 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282B8C3C2A7ADEB100F983CD /* DetailTransferWalletViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2843A62A2A7A4E480009E3D3 /* Components */,
+				2843A6242A7A4D9B0009E3D3 /* DetailTransferWalletViewController.swift */,
+			);
+			path = DetailTransferWalletViewController;
+			sourceTree = "<group>";
+		};
+		282B8C3D2A7ADF2E00F983CD /* ExchangeReceipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				282B8C3E2A7ADFCB00F983CD /* Components */,
+				282B8C3F2A7ADFF300F983CD /* ExchangeReceipViewController.swift */,
+			);
+			path = ExchangeReceipViewController;
+			sourceTree = "<group>";
+		};
+		282B8C3E2A7ADFCB00F983CD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				282B8C412A7AE5E000F983CD /* CustomExchangeReceipTabCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		2843A6042A7A4B9C0009E3D3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +88,47 @@
 		2843A60F2A7A4B9C0009E3D3 /* DetailTransferWallet */ = {
 			isa = PBXGroup;
 			children = (
+				2843A6262A7A4DC10009E3D3 /* App */,
+				2843A6272A7A4DD10009E3D3 /* Resources */,
+				2843A6292A7A4E2D0009E3D3 /* Modules */,
+			);
+			path = DetailTransferWallet;
+			sourceTree = "<group>";
+		};
+		2843A6262A7A4DC10009E3D3 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				2843A6102A7A4B9C0009E3D3 /* AppDelegate.swift */,
 				2843A6122A7A4B9C0009E3D3 /* SceneDelegate.swift */,
-				2843A6142A7A4B9C0009E3D3 /* ViewController.swift */,
-				2843A6162A7A4B9C0009E3D3 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2843A6272A7A4DD10009E3D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2843A6192A7A4B9D0009E3D3 /* Assets.xcassets */,
 				2843A61B2A7A4B9D0009E3D3 /* LaunchScreen.storyboard */,
 				2843A61E2A7A4B9D0009E3D3 /* Info.plist */,
 			);
-			path = DetailTransferWallet;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2843A6292A7A4E2D0009E3D3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				282B8C3D2A7ADF2E00F983CD /* ExchangeReceipViewController */,
+				282B8C3C2A7ADEB100F983CD /* DetailTransferWalletViewController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2843A62A2A7A4E480009E3D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2843A62E2A7A567E0009E3D3 /* CustomDetailTransferTabCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,9 @@
 			dependencies = (
 			);
 			name = DetailTransferWallet;
+			packageProductDependencies = (
+				2843A62C2A7A521D0009E3D3 /* SnapKit */,
+			);
 			productName = DetailTransferWallet;
 			productReference = 2843A60D2A7A4B9C0009E3D3 /* DetailTransferWallet.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,9 @@
 				Base,
 			);
 			mainGroup = 2843A6042A7A4B9C0009E3D3;
+			packageReferences = (
+				2843A62B2A7A521D0009E3D3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2843A60E2A7A4B9C0009E3D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +197,6 @@
 			files = (
 				2843A61D2A7A4B9D0009E3D3 /* LaunchScreen.storyboard in Resources */,
 				2843A61A2A7A4B9D0009E3D3 /* Assets.xcassets in Resources */,
-				2843A6182A7A4B9C0009E3D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2843A6152A7A4B9C0009E3D3 /* ViewController.swift in Sources */,
+				2843A62F2A7A567E0009E3D3 /* CustomDetailTransferTabCell.swift in Sources */,
+				282B8C422A7AE5E000F983CD /* CustomExchangeReceipTabCell.swift in Sources */,
+				2843A6252A7A4D9B0009E3D3 /* DetailTransferWalletViewController.swift in Sources */,
 				2843A6112A7A4B9C0009E3D3 /* AppDelegate.swift in Sources */,
+				282B8C402A7ADFF300F983CD /* ExchangeReceipViewController.swift in Sources */,
 				2843A6132A7A4B9C0009E3D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2843A6162A7A4B9C0009E3D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2843A6172A7A4B9C0009E3D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2843A61B2A7A4B9D0009E3D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +353,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TGA44R678;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DetailTransferWallet/Info.plist;
+				INFOPLIST_FILE = DetailTransferWallet/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +380,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TGA44R678;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DetailTransferWallet/Info.plist;
+				INFOPLIST_FILE = DetailTransferWallet/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2843A62B2A7A521D0009E3D3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2843A62C2A7A521D0009E3D3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2843A62B2A7A521D0009E3D3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2843A6052A7A4B9C0009E3D3 /* Project object */;
 }
